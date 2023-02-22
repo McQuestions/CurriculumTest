@@ -1,0 +1,75 @@
+﻿@foreach (Dating item in Curriculum.ListDating)
+{
+<div class="whitefont">
+    <fieldset id="pictureframe">
+		<legend style="font-size:14px;">
+			<span class="legend-span">
+				&nbsp;&nbsp;Dating Card&nbsp;
+			</span></legend>
+		<table>
+			<tr>
+				<td>Voornaam:</td>
+				<td><input @bind="item.Voornaam" /></td>
+			</tr>
+			<tr>
+				<td>Tussenvoegsel:</td>
+					<td><input @bind="item.Tussenvoegsel" /></td>
+			</tr>
+			<tr>
+				<td>Achternaam:</td>
+					<td><input @bind="item.Achternaam" /></td>
+			</tr>
+		</table>
+        <table>
+			<tr>
+				<td colspan="2">
+				</td>
+			</tr>
+				<tr>
+					<td colspan="2">
+						<input type="hidden" /><img class="profilepic" src=@item.Foto alt="sss" />
+					</td>
+				</tr>
+			<tr>
+				<td>Leeftijd:</td>
+				<td><input @bind="item.Leeftijd" /></td>
+			</tr>
+		</table>
+	</fieldset>
+</div>
+}
+	<br />
+
+@foreach (Communications item in Curriculum.ListCommunications)
+{
+	<fieldset>
+		<legend style="font-size:14px">
+			<span class="legend-span">
+				&nbsp;&nbsp;Communications Card&nbsp;
+			</span>
+		</legend>
+		<table>
+
+			<tr>
+				<td>Telefoon:</td>
+				<td><input @bind="item.Telefoon" /></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input @bind="item.Email" /></td>
+			</tr>
+				<tr>
+				<td>Gemeente:</td>
+				<td><input @bind="item.Gemeente" /></td>
+				</tr>
+		</table>
+	</fieldset>
+}
+
+@code {
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+
+	[CascadingParameter]
+	public XMLDataCreate XmlData { get; set; }
+}

@@ -1,0 +1,231 @@
+﻿@using CurriculumTest.Pages.Beheer.CreateComponents.ForegroundComponents
+<div class="foreground-container">
+	
+	<!-- CSS -->
+	<CascadingValue Value="@Colours1">
+		<CCSS />
+	</CascadingValue>
+	
+	<div id="header" style="border-radius:24px;">
+		<CascadingValue Value="@Colours1">
+			<CHeader />
+		</CascadingValue>
+		<button style="border-radius: 24px; background-color:white" @onclick="Save">Save</button>
+	</div>
+	
+	<div class="flex-container" style="padding-top:30px;">
+
+		<div class="CDataDrager-B">
+					<h1>Tools</h1>
+		<!-- ColorPickerCard -->
+			<fieldset class="fieldset-even">
+				<legend><span class="legend-span">Set Colors</span></legend>
+				<div class="divcolorbuttons">
+					<input type="hidden" @bind="Colours1.Basis" />
+					<button style="background-color:@Colors.Rood" @onclick="Rood">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+					<button style="background-color:@Colors.Geel" @onclick="Geel">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+				</div>
+				<div class="divcolorbuttons">
+					<button style="background-color:@Colors.Groen" @onclick="Groen">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+					<button style="background-color:@Colors.Cyaan" @onclick="Cyaan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+				</div>
+				<div class="divcolorbuttons">
+					<button style="background-color:@Colors.Blauw" @onclick="Blauw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+					<button style="background-color:@Colors.Magenta" @onclick="Magenta">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+				</div>
+			</fieldset>
+			<br />
+			<fieldset class="fieldset-even">
+				<legend><span class="legend-span">Add</span></legend>
+				<select style="border-radius:18px" name="cars" id="cars">
+					<option value="volvo">Dating Card</option>
+					<option value="saab">Location Card</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+					<option value="audi">Toyota</option>
+					<option value="audi">Daf33</option>
+					<option value="audi">Ferrari</option>
+				</select>
+			</fieldset>
+			<br />&nbsp;
+			<fieldset class="fieldset-uneven">
+				<legend><span class="legend-span">Save As</span></legend>
+				<select style="border-radius:18px" name="cars" id="cars">
+					<option value="volvo">Template</option>
+					<option value="saab">PDF File</option>
+					<option value="mercedes">Print</option>
+					<option value="audi">PNG File</option>
+
+				</select>
+			</fieldset>
+			<br />&nbsp;
+			<fieldset class="fieldset-uneven">
+				<legend><span class="legend-span">Re-arrange</span></legend>
+				<select style="border-radius:18px" name="cars" id="cars">
+					<option value="volvo">Template</option>
+					<option value="saab">PDF File</option>
+					<option value="mercedes">Print</option>
+					<option value="audi">PNG File</option>
+
+				</select>
+			</fieldset>
+			<br />&nbsp;
+		</div>
+		
+
+		<!-- DatingCard  -->
+		<div class="DataDrager-Dating">
+			<CascadingValue Value="@XmlData">
+				<CascadingValue Value="@Curriculum">			
+					<Card_Dating />
+				</CascadingValue>
+			</CascadingValue>
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CContainerLocatie />
+				</CascadingValue>
+			</CascadingValue>
+		</div>
+
+		<!-- LocationCard  
+		<div class="DataDrager-B">
+
+		</div>-->
+
+		<!-- WorkExperienceCard -->
+		<!--<div class="DataDrager-B">-->
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CWorkExperienceCard />
+				</CascadingValue>
+			</CascadingValue>
+		<!--</div>-->
+
+		<!-- Vrijetijdsbesteding -->
+		<div class="CDataDrager-B">
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CContainerVrijetijdsbesteding />
+				</CascadingValue>
+			</CascadingValue>
+		</div>
+		
+		<!-- AgeCard -->
+@*		<div class="CDataDrager-B">
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CContainerLeeftijd />
+				</CascadingValue>
+			</CascadingValue>
+		</div>*@
+
+		<!-- DropdownListen voorkeuren sterk zwak -->
+		<div class="CDataDrager-B">
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CContainerDropDownLijsten />
+				</CascadingValue>
+			</CascadingValue>
+		</div>
+
+		<!-- EducationCard -->
+		<div class="CDataDrager-B">
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CContainerEducation />
+				</CascadingValue>
+			</CascadingValue>
+		</div>
+
+		<!-- SkillsCard -->
+		<div class="CDataDrager-B">
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CContainerVaardigheden />
+				</CascadingValue>
+			</CascadingValue>
+		</div>
+
+		<!-- ReferenceCard & ToolCard -->
+		<div class="CDataDrager-B">
+			<CascadingValue Value="@Curriculum">		
+				<CascadingValue Value="@XmlData">
+					<CContainerReferentie />
+				</CascadingValue>
+			</CascadingValue>
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CContainerTool />
+				</CascadingValue>
+			</CascadingValue>
+		</div>
+
+		<!-- Statements_AchievementsCard -->
+		<div class="CDataDrager-B">
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CContainerStatementsAchievements />
+				</CascadingValue>
+			</CascadingValue>
+		</div>
+
+		<!-- CertificateCard -->
+		<div class="CDataDrager-B">
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CContainerCertificaat />
+				</CascadingValue>
+			</CascadingValue>
+		</div>
+
+		<!-- CourseCard -->
+		<div class="CDataDrager-B">
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CContainerCursus />
+				</CascadingValue>
+			</CascadingValue>
+		</div>
+
+		<!-- TrainingCard -->
+		<div class="CDataDrager-B">
+			<CascadingValue Value="@Curriculum">
+				<CascadingValue Value="@XmlData">
+					<CContainerTraining />
+				</CascadingValue>
+			</CascadingValue>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div id="header" style="border-radius:24px;">
+		<CascadingValue Value="@Colours1">
+			<CFooter />
+		</CascadingValue>
+		<button style="border-radius: 24px; background-color:white" @onclick="Save">Save</button>
+	</div>
+</div>
+
+@{
+	Colours1.SetValuesCreate(Colors.Button, 45);
+}
+@code 
+{
+	[CascadingParameter]
+	public Colors Colours1 { get; set; }
+
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+
+	[CascadingParameter]
+	public XMLDataCreate XmlData { get; set; }
+
+	private void Save() => XmlData.Save(Curriculum);
+	
+	void Rood() => Colors.Button = "Rood";
+	void Geel() { Colors.Button = "Geel";}
+	void Groen() => Colors.Button = "Groen";
+	void Cyaan() => Colors.Button = "Cyaan";
+	void Blauw() => Colors.Button = "Blauw";
+	void Magenta() => Colors.Button = "Magenta";
+}

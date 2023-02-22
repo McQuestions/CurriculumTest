@@ -1,0 +1,26 @@
+﻿	@foreach (Referentie item in Curriculum.ListReferentie)
+	{
+		<fieldset>
+			<legend><span class="legend-span">&nbsp;Referentie &nbsp;</span></legend>
+			<table>
+				<tr>
+					<td>&nbsp;&nbsp;Naam</td>
+					<td><input value="@item.Naam" readonly /></td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Functie</td>
+					<td><input value="@item.Functie" readonly /></td>
+					<td></td>
+				</tr>
+			</table>
+		</fieldset>
+	}
+
+@code 
+{
+	/// parameter: geeft object Curriculum dat in parent werd aangemaakt door aan child EditOpleiding  
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+}

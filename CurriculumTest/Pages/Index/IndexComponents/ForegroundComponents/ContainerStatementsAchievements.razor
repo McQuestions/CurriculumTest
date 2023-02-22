@@ -1,0 +1,13 @@
+﻿<fieldset>
+<legend><span class="legend-span">&nbsp;Statements & Achievements&nbsp;</span></legend>
+    <table>
+        <tr>
+		<td><textarea value="@Curriculum.Meta" readonly /></td>
+        </tr>
+    </table>
+</fieldset>
+
+@code {
+    [CascadingParameter]
+    public Curriculum Curriculum { get; set; }
+}

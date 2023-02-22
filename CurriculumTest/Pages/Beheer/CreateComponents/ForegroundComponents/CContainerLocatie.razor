@@ -1,0 +1,31 @@
+﻿@*<div class="datadrager-card" style="background-color:transparent">*@
+@foreach (Location item in Curriculum.ListLocation)
+{
+    <fieldset>
+        <legend><span class="legend-span">&nbsp;Location Card&nbsp;</span></legend>
+        <table>
+            <tr>
+				<td><input @bind="item.Adres" /></td>
+				<td>Adres</td>
+            </tr>
+            <tr>
+				<td><input @bind="item.Postcode" /></td>
+				<td>Postcode</td>
+            </tr>
+            <tr>
+				<td><input @bind="item.Woonplaats" /></td>
+				<td>Woonplaats</td>
+            </tr>
+            </table>
+    </fieldset>
+}
+@*</div>*@
+
+
+@code {
+    [CascadingParameter]
+    public Curriculum Curriculum { get; set; }
+
+    [CascadingParameter]
+    public XMLDataCreate XmlData { get; set; }
+}

@@ -1,0 +1,141 @@
+﻿
+
+Cleopatra. Why? 
+
+
+As Radhika Sanghani wrote in the Guardian: 
+Cleopatra’s beauty is well-known. “She was a woman of surpassing beauty, and at that time, when she was in the prime of her youth, she was most striking,” wrote the Roman statesman Dio Cassius, while Plutarch spoke of “a woman who was haughty and astonishingly proud in the matter of beauty”. The two most powerful men of Rome, Julius Caesar and Marc Antony, both fell in love with her “wit as well as her good looks”, according to historian Appian.
+
+But unlike (Liz) Taylor’s Cleopatra (in the movie Cleopatra), the real one had a big nose. The 17th-century philosopher Pascal famously wrote: “Cleopatra’s nose, had it been shorter, the whole face of the world would have been changed.” In coins and busts bearing her image, she has a strong profile. Her nose is hooked and eagle-like, her chin juts out and her forehead is short. Joyce Tyldesley, lecturer and author of Cleopatra: Last Queen of Egypt, has told the BBC: “People tend to think that her coins are more lifelike and if you look at them, she’s not particularly beautiful, as she has a big nose and chin.”
+
+So the goal of this app is to empower people to create and develop their own unique profile and inject it into the stream of the Great Material Continuum. 
+xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+What's special about Cleopatra? 
+
+1. There are 3 layers on each page: a active foreground, an inactive middleground and an inactive background. Toggling between the layers is easy. The background becomes the active foreground layer with one click. Everything happens in your browser. Dus je kunt stylen wat en hoe je wil. 
+2. The style help tools: in free mode the style changes with each click. If you like a particular style you can save it and set it as your default. This is what your viewers will see. You can set the 3 layers separately. 
+3. And then there are the templates. No hard choices here. But if you like to adapt a template and use that as your default be Cleopatra's guest.
+4. The colorscheme engine is top-notch. From harmony to tension to dissonance. Play because pay.   
+
+
+gebruiker kan cards kiezen. 10 max. elke card kan max drie comp kiezen. Er zijn er 15 op dit moment.
+
+string in cv bevat de configuratie info.
+
+dynamisch componenten laden:
+
+https://learn.microsoft.com/en-us/aspnet/core/blazor/components/dynamiccomponent?view=aspnetcore-7.0
+
+
+@page "/test"
+
+<button type="button" @onclick="() => showSignUpComponent = true">
+    Show Sign Up Window
+</button>
+
+@if (showSignUpComponent)
+{
+    <SignUp />
+}
+
+@code {
+    bool showSignUpComponent;
+} 
+
+wat je dus nodig hebt zijn dienbladen en alle dingen die daar op worden gezet. max 3 per blad. Of
+noem het een houder en die kan max drie kaarten bevatten. 3 dezelfde of 3 verschillende kaarten.
+
+nog toevoegen: kaarten voor frameworks, technische talen, onder de indruk van gefascineerd door, fan van 
+nog wat van die halve gare popi dingetjes om iemands persoonlijk kort neer te zetten. Een karakterschets met een 
+paar stevige penseelstreken. 
+
+de kaarten kun je zelf vullen met data en je kunt zo je cv bouwen dat bij jouw verhaal past. Op de dating en locatiekaart zijn alle kaarten optioneel.
+
+ook mogelijkheid bieden een cv met meerdere pagina's te hebben die steeds met de dating card opent maar met een 
+andere datingfoto en de contactgegevens. De rest van de cards op de volgende pagina is nieuwe info.
+
+Mandatory: dating card en essentials card de rest is optioneel.
+
+
+
+geen idee Sturen op effectiviteit is niet iets waardoor uwv en gemeenten in de afgelopen 25 jaar zich hebben onderscheiden als het gaat om is de reintegratie vanuit uwv en gemeenten niet fundamenteel veranderd als het gaat om . 
+
+* Moet je willen dat alles in dezelfde mal past? Volgens mij niet. Voorbeeld: onder 'werkervaring' vul je je relevante jobs in en telkens is er een veld 'periode' dat je kunt invullen. Je kunt dit zo coderen dat iedereen gedwongen wordt hetzelfde format te hanteren voor de begin- en einddatum. Bijvoorbeeld: dag maand jaar. Maar wat koop je voor dat format als het een job betreft waar we ons niet meer precies de start- of einddatum van herinneren? Moeten we dan in de papieren duiken en dat allemaal precies uitvlooien zodat we kunnen voldoen aan dat malle format? Welnee. Geef de gebruiker gewoon de vrijheid om zelf in te vullen wat hij wil. Als hij van 2020 tot 2022 wil invullen dan kan dat. Als hij van medio 2020 tot eind 2022 wil invullen dan kan dat. Als hij heel precies dag maand jaar wil invullen dan kan dat. Niemand gaat er een seconde minder om slapen.
+
+* Moet elke card dezelfde velden hebben? Volgens mij niet. Voorbeeld: bij 'werkervaring' kun je de naam van een referentie invullen maar als je dat niet doet, wordt het lege veld niet weergegeven. Ook dit maakt het mogelijk om het cv zo veel mogelijk af te stemmen op wat voor de individuele gebruiker het beste is.
+
+* Moet er een geboortedatum vermeld worden? Ook daar wordt niemand beter van. Gewoon de leeftijd invullen en klaar. Maar dan moet je die steeds updaten! Tsja... het is je eigen verantwoordelijkheid als je dat niet doet. Je moet je cv ook zien als een work in progress. Er zit ook geen spellingschecker in. Als jij fouten maakt en dingen verkeerd schrijft zegt dat iets over jou. Eerlijker kan niet. Dus neem het gewoon serieus en doe gewoon je f*cking best.
+
+* Moet adres, huisnr. en postcode ingevuld worden? Ook daar heeft niemand wat aan. Een bedrijf dat je cv bekijkt en jou een interessante kandidaat vindt, neemt via telefoon of email contact op. Straat, huisnr., postcode voegen helemaal niets toe. Niemand zal je ooit een brief of kerstkaart schrijven als je die wel vermeldt. De gemeente waar je woont is voldoende info voor een bedrijf. Maar als je dat allemaal wel wil vermelden dan kan dat want de LocationCard is optioneel.
+
+* Er zijn templates beschikbaar die je kunt gebruiken als je niet goed raad weet met het zelf samenstellen van je cv. En bij die templates kun je ook weer zelf dingen aanvullen of weglaten. Maar dat hoeft niet. 
+
+Zelfexpressie en profilering
+
+
+todo
+css
+alles naar engels 
+zelf volgorde dragers en cards kiezen
+beheerpagina maken
+velden die leeggelaten worden weglaten 
+
+
+uitgangspunten
+lightweight
+local: develop your profile locally. It's in your browser.   
+flexible: profile your self or let others do it for you.
+simple, stable and getting the smartest info out
+adjustable: you can reset any time. we are not liable and have the best lawyers.  
+extendable: 1 simple thing + 1 simple thing = 1 new simple thing. The mathematics of simple things.  
+Reading a dice well is mastering combining a few simple patterns. Up to 6 simple patterns is easy. What we did here was to link them horizontally into one big dice concept. To build from this and keeping it as simple as posible we need to link hierchally. Up and down. 
+
+The Dutch love their straight lines. It's because where they live.    
+
+By the time this concept needs to be rewritten you know why you chose for simple. 
+
+
+
+wie is bereid voor het product te betalen
+
+voorbeelden optimaliseren voor ggz
+senior psychologe
+gedragstherapeute
+verpleegster
+logopediste
+
+zwart/wit
+
+beroep groot erbij
+
+pbi
+zoekfunctie
+
+op site
+kosten delen
+
+drag en drop
+
+gemeente, bedrijven die afvloeiing personeel hebben, bedrijfsverzamelgebouwen(hal)
+
+kosten hosting delen, 
+ik ben beschikbaar .nl
+
+
+asana
+
+business case
+
+zorgpersoneel informatie bouwstenen: cards
+
+vrager: wat krijg ik voor mijn geld?
+aanbieder: wat wil je geven?
+Magneet: we make your conversation happen. 
+
+
+Als ik deze vacature gisteravond had gelezen was ik vanmorgen met een ODOL wakker geworden. Of met iemand anders. 
+
+
+
+

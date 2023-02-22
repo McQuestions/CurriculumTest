@@ -1,0 +1,36 @@
+﻿@{
+	int aantal = Curriculum.ListResume.Count();
+}
+
+@if (Curriculum.ListResume.Count() < 4)
+{
+	<div class="DataDrager-B">
+				@foreach (Resume item in Curriculum.ListResume)
+				{
+					<div>
+						if (teller % 2 == 0) fs = "fieldset-oneven";
+						else fs = $"fieldset-even";
+
+						<fieldset class="@fs">
+							<legend><span class="legend-span">&nbsp;Work Experience&nbsp;</span></legend>
+							<table>
+								<tr>
+									<td><input @bind="item.Item" />aaaaaaaaaaaaaaa</td>
+								</tr>
+							</table>
+						</fieldset>
+						teller++;
+					</div>
+				}				
+	</div>
+}
+
+
+
+@code {
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+
+	int teller = 1;
+	string fs = "";
+}

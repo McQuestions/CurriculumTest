@@ -1,0 +1,28 @@
+﻿<table style="width:100% !important; align-content:flex-start;">
+	<tr>
+		<td></td>
+	</tr>	
+</table>
+
+@code {
+
+	string kleurwaarde(int kw)
+	{
+		string r = "";
+		if (kw.ToString().Length == 1)
+		{
+			r += "00";
+		}
+		else if (kw.ToString().Length == 2)
+		{
+			r += "0";
+		}
+		return r + kw.ToString();
+	}
+
+	[CascadingParameter]
+	public Colors Colours { get; set; }
+
+    [CascadingParameter]
+    public Curriculum Curriculum { get; set; }
+}

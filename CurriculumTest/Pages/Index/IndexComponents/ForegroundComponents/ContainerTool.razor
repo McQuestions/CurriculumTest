@@ -1,0 +1,21 @@
+﻿@foreach (Tool item in Curriculum.ListTools)
+{
+	<fieldset>
+		<legend><span class="legend-span">&nbsp;Tool&nbsp;</span></legend>
+		<table>
+			<tr>
+				<td>&nbsp;&nbsp;Experience level</td>
+				<td><input value="@item.ExperienceLevel" readonly /></td>
+				<td>
+				</td>
+			</tr>
+		</table>
+	</fieldset>
+}
+
+@code 
+{
+	/// parameter: geeft object Curriculum dat in parent werd aangemaakt door aan child EditEducation  
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+}

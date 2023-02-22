@@ -1,0 +1,76 @@
+﻿@foreach (Professional item in Curriculum.ListProfessional)
+{
+	<div class="whitefontt">
+		<fieldset class="fieldset-even">
+			<legend style="font-size:16px;">
+				<span class="legend-pro">
+					&nbsp;&nbsp;@item.Beroep &nbsp;&nbsp;
+				</span>
+			</legend>
+		<table>
+			<tr>
+				<td colspan="2">Zoekt baan voor:</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input value="24 uur per week" readonly /></td>
+			</tr>
+			<tr>
+				<td colspan="2">In de regio:</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input value="Zuid-Limburg" readonly /></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<br />
+					Wil graag in gesprek over:
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input class="checkboxpro" type="checkbox" id="ding" name="interest" value="coding" />
+					<label style="color:black" for="ding">opleidingsmogelijkheden</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+						<input class="checkboxpro" type="checkbox" id="Doorgroei" name="interest" value="coding" />
+						<label style="color:black" for="Doorgroei">doorgroeimogelijkheden</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input class="checkboxpro" type="checkbox" id="ing" name="interest" value="coding" />
+					<label style="color:black" for="ing">salarisontwikkeling</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input class="checkboxpro" type="checkbox" id="Zzp" name="interest" value="coding" />
+					<label style="color:black" for="Zzp">zzp</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input class="checkboxpro" type="checkbox" id="Anders" name="interest" value="coding" />
+					<label style="color:black" for="Anders">huisvestingsmogelijkheden</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input class="checkboxpro" type="checkbox" id="straal" name="interest" value="coding" />
+					<label style="color:black" for="straal">kinderopvang</label>
+				</td>
+			</tr>
+		</table>
+		</fieldset>
+	
+	<br />
+	</div>
+}
+
+
+
+@code {
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+}

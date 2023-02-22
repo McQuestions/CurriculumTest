@@ -1,0 +1,96 @@
+﻿@page "/about"
+
+<style>
+	.flex{
+		display: flex;
+		padding-bottom: 15px;
+		flex-wrap: wrap;
+		justify-content: center;
+		background-color: white;
+		border-radius: 24px;
+	}
+
+	.flex > div {
+		background-color: red;
+		margin: 10px;
+		padding: 15px;
+		font-size: 13px;
+		border-radius: 24px;
+	}
+
+	p{
+		font-size: 16px;
+		padding: 40px;
+	}
+
+	span {
+		border: 1px solid black;
+		background-color: lightpink;
+		margin-left:1px;
+
+	}
+
+	div{
+		width:800px;
+		height: 550px;
+	}
+</style>
+
+
+<h1>Uitgangspunten</h1>
+
+<p>
+	<br />
+	Pak het slim aan.
+	<br /><br />
+	Stem je profiel af op het bedrijf. Door te solliciteren met een link die de app precies vertelt wat de bezoeker ziet en wat niet.
+	<br /><br />
+	Je kunt zoveel varianten maken als je wil. Kies zelf de stijl en inhoud die je het beste lijken.
+	<br /><br />
+	Ook je vaste profielpagina is helemaal naar eigen wens in te richten.
+	<br /><br />
+	Je kunt ook gebruik maken van de templates als je dat makkelijker vindt. En die kun je ook weer tweaken. 
+	<br /><br />
+	De ontwikkeling van de app staat niet stil. We werken hard om de beschikbare templates steeds relevanter te maken voor de branches waarop ze zijn gericht.
+	<br /><br />
+	En er komt ook een community met tips van gebruikers.
+	</p>
+
+
+<div>
+
+	<h1></h1>
+
+	@RenderWelcomeInfo
+
+	<p></p>
+
+	@RenderWelcomeInfo
+
+	@code {
+		private RenderFragment RenderWelcomeInfo = __builder =>
+		{
+			<p></p>
+		};
+	}
+</div>
+
+
+	@code {
+	// 	// deze pagina moet nog ergens op de frontpagina een link krijgen en is nog niet klaar
+
+	string a = "dit was 1";
+	private int currentCount = 0;
+
+	[Parameter]
+	public int IncrementAmount { get; set; } = 1;
+
+	private void IncrementCount()
+	{
+	currentCount += IncrementAmount;
+	}
+
+	string g = "<ViewMenu />";
+
+	
+}

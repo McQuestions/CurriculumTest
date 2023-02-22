@@ -1,0 +1,203 @@
+﻿@using CurriculumTest.Pages.Index.IndexComponents.ForegroundComponents
+<div class="foreground-container">
+	
+	<!-- CSS -->
+	<CascadingValue Value="@Colours">
+		<CSS />
+	</CascadingValue>
+	
+	<div id="header" style="border-radius:24px;">
+		<CascadingValue Value="@Colours">
+			<Header />
+		</CascadingValue>
+		@*<button style="border-radius: 24px; background-color:white" @onclick="Save">Save</button>*@
+	</div>
+	
+
+	<div class="fg_grid-container">
+		<!-- ColorPickerCard -->
+		<div class="fg-item1">
+			<!-- ColorPickerCard -->
+@*			<div class="DataDrager-ColorCard">
+				<div class="sticky">
+					<div class="divcolorbuttons">
+						<input type="hidden" @bind="Colours.Basis" />
+						<button style="background-color:@Colors.Rood" @onclick="Rood">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+						<button style="background-color:@Colors.Geel" @onclick="Geel">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+					</div>
+					<div class="divcolorbuttons">
+						<button style="background-color:@Colors.Groen" @onclick="Groen">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+						<button style="background-color:@Colors.Cyaan" @onclick="Cyaan">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+					</div>
+					<div class="divcolorbuttons">
+						<button style="background-color:@Colors.Blauw" @onclick="Blauw">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+						<button style="background-color:@Colors.Magenta" @onclick="Magenta">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+					</div>
+				</div>
+			</div>*@
+		</div>
+
+		<!-- Content Cards -->
+		<div class="fg-item2">
+			<div class="flex-container" style="padding-top:30px;">
+				<div class="DataDrager-Dating">
+					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerProfessional />
+					</CascadingValue>
+				</div>				<!-- DatingCard  -->
+				<div class="DataDrager-Dating">
+					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerDating />
+					</CascadingValue>
+				</div>
+
+				<!-- WorkExperienceCard -->
+				@{
+					//CountListItems((Object)Curriculum.ListWorkExperience)
+				}
+
+				<CascadingValue Value="@Curriculum" IsFixed="true">
+					<WorkExperienceCard />
+				</CascadingValue>
+
+				<!-- EducationCard -->
+				<div class="DataDrager-Dating">
+					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerEducation />
+					</CascadingValue>
+				</div>
+
+				<!-- CertificateCard -->
+				<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerCertificaat />
+					</CascadingValue>
+
+@*				<CascadingValue Value="@Curriculum" IsFixed="true">
+					<ResumeCardBox />
+				</CascadingValue>*@
+
+				<!-- SkillsCard -->
+@*				<div class="DataDrager-Dating" >
+					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerVaardigheden />
+					</CascadingValue>
+				</div>*@
+
+				<!-- CourseCard -->
+@*				<div class="DataDrager-Dating">
+					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerCursus />
+					</CascadingValue>
+				</div>*@
+
+				<!-- TrainingCard -->
+				<div class="DataDrager-Dating">
+					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerTraining />
+					</CascadingValue>
+				</div>
+
+				<!-- AgeCard -->
+				<!-- LocationCard  -->
+				<!-- Vrijetijdsbestedinng -->
+				<div class="DataDrager-Dating">
+					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerLocatie />
+					</CascadingValue>
+
+@*					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerLeeftijd />
+					</CascadingValue>*@
+
+@*					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerVrijetijdsbesteding />
+					</CascadingValue>*@
+				</div>
+
+				<!-- DropdownListen voorkeuren sterk zwak -->
+@*				<div class="DataDrager-Dating">
+					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerDropDownLijsten />
+					</CascadingValue>
+				</div>*@
+
+				<!-- ReferenceCard & ToolCard -->
+				<div class="DataDrager-Dating">
+					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerReferentie />
+					</CascadingValue>
+
+					<CascadingValue Value="@Curriculum">
+						<ContainerTool />
+					</CascadingValue>
+				</div>
+
+@*				<!-- Statements_AchievementsCard -->
+				<div class="DataDrager-Dating">
+					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<ContainerStatementsAchievements />
+					</CascadingValue>
+				</div>*@
+
+				<!-- MediaCard -->
+				<div class="DataDrager-Dating">
+					<CascadingValue Value="@Curriculum" IsFixed="true">
+						<MediaCard />
+					</CascadingValue>
+				</div>
+
+
+				@*
+				<div class="DataDrager-Nuances">
+					<br>
+					<div>
+						<div class="nuance6">&nbsp;&nbsp;&nbsp;</div>
+						<div class="nuance5">&nbsp;&nbsp;&nbsp;</div>
+						<div class="nuance4">&nbsp;&nbsp;&nbsp;</div>
+						<div class="nuance3">&nbsp;&nbsp;&nbsp;</div>
+						<div class="nuance2">&nbsp;&nbsp;&nbsp;</div>
+						<div class="nuance1">&nbsp;&nbsp;&nbsp;</div>
+						<div class="nuance2">&nbsp;&nbsp;&nbsp;</div>
+						<div class="nuance3">&nbsp;&nbsp;&nbsp;</div>
+						<div class="nuance4">&nbsp;&nbsp;&nbsp;</div>
+						<div class="nuance5">&nbsp;&nbsp;&nbsp;</div>
+						<div class="nuance6">&nbsp;&nbsp;&nbsp;</div>
+					</div>
+				</div>*@
+			</div>
+		</div>
+	</div>
+</div>
+
+@{
+	Colours.SetValues(Colors.Button, 45);
+}
+@code 
+{
+	[CascadingParameter]
+	public Colors Colours { get; set; }
+
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+
+	void Rood() => Colors.Button = "Rood";
+	void Geel() { Colors.Button = "Geel";}
+	void Groen() => Colors.Button = "Groen";
+	void Cyaan() => Colors.Button = "Cyaan";
+	void Blauw() => Colors.Button = "Blauw";
+	void Magenta() => Colors.Button = "Magenta";
+
+
+	private int CountListItems(List<object> countListItems)
+	{
+		int count = countListItems.Count();
+		
+		if (Curriculum.ListWorkExperience.Count() < 4)
+		{
+			
+		} 
+
+
+		return count;
+	}
+}

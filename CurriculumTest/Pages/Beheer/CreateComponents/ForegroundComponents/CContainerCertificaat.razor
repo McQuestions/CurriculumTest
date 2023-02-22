@@ -1,0 +1,79 @@
+﻿@*<div class="datadrager-card">*@
+@foreach (Certificate certificate in Curriculum.ListCertificates)
+{
+	if (teller % 2 == 0)
+		fs = "fieldset-oneven";
+	else
+		fs = "fieldset-even";
+	teller++;
+
+	<fieldset class="@fs">
+		<legend><span class="legend-span">&nbsp;Certificaat Card&nbsp;</span></legend>
+		<table>
+			<tr>
+				<td>&nbsp;&nbsp;Certificaat</td>
+			<td><input @bind="certificate.Naam" /></td>
+				<td>
+				<button @onclick="() => Delete(certificate)">
+						<img src="minus-circle.png" alt="sss" />
+					</button>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;Toelichting</td>
+			<td><input @bind="certificate.Toelichting" /></td>
+				<td>
+				</td>
+			</tr>
+		</table>
+		<hr />
+		<div>
+			<span style="position: relative; float:left">
+				<button @onclick="() => Delete(certificate)">Delete &nbsp;<img src="minus-circle.png" alt="sss" /></button>
+			</span>
+			<span style="position: relative; float:right">
+				<label style="color:black" for="coding">Show</label>
+				<input class="checkboxshow" type="checkbox" @bind="certificate.Show" id="coding" name="interest" value="coding" />
+			</span>
+		</div>
+	</fieldset>
+}
+
+	<div>
+		<span style="float:right">
+			<button @onclick="Add"><img src="plus-circle.png" alt="sss" /></button>
+		</span>
+	</div>
+@*</div>*@
+
+
+@code
+{
+	int teller = 1;
+	string fs = "";
+
+	/// parameter: geeft object Curriculum dat in parent werd aangemaakt door aan child EditOpleiding
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+
+	/// idem voor XMLData
+	[CascadingParameter]
+	public XMLDataCreate XmlData { get; set; }
+
+	// wordt aangeroepen als user op png met de + klikt (toevoegen)
+	// toevoeging wordt in xml file weggeschreven
+	void Add()
+	{
+		Certificate certificate = new();
+		certificate.Id = Curriculum.ListCertificates.Count() + 1;
+		Curriculum.ListCertificates.Add(certificate);
+		XmlData.Save(Curriculum);
+	}
+
+	// idem voor het verwijdering
+	void Delete(Certificate certificate)
+	{
+		Curriculum.ListCertificates.Remove(certificate);
+		XmlData.Save(Curriculum);
+	}
+}

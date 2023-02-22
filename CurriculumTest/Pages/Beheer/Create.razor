@@ -1,0 +1,50 @@
+﻿@page "/create"
+@using System.Xml.Linq
+@using System.Text
+@using CurriculumTest.Pages.Beheer.CreateComponents
+@using CurriculumTest.Pages.Beheer.CreateComponents.ForegroundComponents
+
+<div class="container">
+	<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  VOORGROND DIV die met css flexbox werkt  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+	<CascadingValue Value="@Colours1">
+		<CascadingValue Value="@Curriculum" IsFixed="true">
+			<CascadingValue Value="@XmlData" IsFixed="true">
+				<CForeground />
+			</CascadingValue>
+		</CascadingValue>
+	</CascadingValue>
+</div>
+
+@{
+	Colours1.SetValuesCreate(Colors.Button, 45);
+	if (teller < 1)
+	{
+		XmlData = new XMLDataCreate();
+		Curriculum = XmlData.GetCurriculumCreate(3);
+		teller++;
+	}
+
+	
+}
+
+@code
+{
+	int r = 0;
+	int teller = 0;
+
+	XMLDataCreate XmlData = new XMLDataCreate();
+	public Curriculum Curriculum;
+
+	// Het object dat bij elke klik opnieuw wordt aangemaakt en het kleurenpalet bevat
+	public Colors Colours1 = new Colors();
+
+	
+
+}
+
+
+
+
+
+
+

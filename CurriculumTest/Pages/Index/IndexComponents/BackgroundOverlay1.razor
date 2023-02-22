@@ -1,0 +1,50 @@
+﻿@{
+	string[] shapes = { Colors.Rood, Colors.Geel, Colors.Cyaan, Colors.Blauw, Colors.Magenta, Colors.Groen };
+	Rand.GetRandom.Next(0, shapes.Count());
+}
+
+<style>
+
+
+/* 	.d = dicht, .o = open, c = color*/
+.d, .o, .c {
+	display:inline; 
+	padding:2px;
+	margin-right:10px;
+	margin-bottom:10px;
+	width:0.6vw;
+	height:1.50vh !important;
+	border: solid 1px rgb(240,240,240) !important;
+	border-radius: 8px 0px;
+}
+
+.d {background-color: rgb(240,240,240);}
+
+.o {background-color: transparent !important;
+		/*color: black;*/
+}
+
+/*.c {background-color: @shapes[Rand.GetRandom.Next(0, shapes.Count())]}*/
+</style>
+
+@for (int i = 1; i < 4000; i++)
+{
+	if (i % Rand.GetRandom.Next(700,1005) == 0)
+	{
+		<div class="c" style="background-color:@shapes[Rand.GetRandom.Next(0, shapes.Count())]">&nbsp;</div>
+	}
+	else if (i % 2 == 0 || i % 3 == 0)
+	{
+		<div class="d">&nbsp;</div>
+	}
+	else
+	{
+		<div class="o">&nbsp;</div>
+	}
+}
+
+@code 
+{
+	[CascadingParameter]
+	public Colors Colours { get; set; }
+}

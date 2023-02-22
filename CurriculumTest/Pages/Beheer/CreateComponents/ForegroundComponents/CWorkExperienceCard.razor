@@ -1,0 +1,206 @@
+﻿@{ int aantal = Curriculum.ListWorkExperience.Count(); }
+
+@if (Curriculum.ListWorkExperience.Count() < 4)
+{
+	<div class="CDataDrager-B">
+	@foreach (WorkExperience item in Curriculum.ListWorkExperience)
+	{
+		if (teller % 2 == 0)
+			fs = "fieldset-oneven";
+		else
+			fs = "fieldset-even"; 
+		teller++;
+
+		<br />
+		<fieldset class="@fs">
+			<legend><span class="legend-span">&nbsp;Work Experience Card&nbsp;</span></legend>
+			<table>
+				<tr>
+					<td>&nbsp;&nbsp;Werkgever</td>
+					<td><input @bind="item.Werkgever" /></td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Functie</td>
+					<td><input @bind="item.Functie" /></td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Periode</td>
+					<td><input @bind="item.Periode" /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Referenties</td>
+					<td><input @bind="item.Referenties" /></td>
+					<td></td>
+				</tr>
+			</table>
+			<hr />
+			<table>
+				<tr>
+					<td class="tdDeleteShow">
+						<span style="position: relative; float:left">
+						<button @onclick="() => Delete(item)">Delete &nbsp;<img src="minus-circle.png" alt="sss" /></button>
+						</span>
+					</td>
+					<td class="tdDeleteShow">
+						<span style="position: relative; float:right">
+						<label style="color:black" for="coding">Show</label>
+						<input class="checkboxshow" type="checkbox" @bind="item.Show" id="coding" name="interest" value="coding" />
+						</span>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+    }
+		<div>
+			<span style="float:right">
+				<button @onclick="Add"><img src="plus-circle.png" alt="sss" /></button>
+			</span>
+		</div>
+	</div>
+}
+
+@if (Curriculum.ListWorkExperience.Count() >= 4)
+{
+	List<WorkExperience> range1 = Curriculum.ListWorkExperience.GetRange(0, 3);
+	<div class="CDataDrager-B">
+		@foreach (WorkExperience item in range1)
+		{
+			if (teller % 2 == 0)
+				fs = "fieldset-even";
+			else
+				fs = "fieldset-oneven";
+			teller++;
+
+			<br />
+			<fieldset class="@fs">
+				<legend><span class="legend-span">&nbsp;Work Experience Card&nbsp;</span></legend>
+				<table>
+					<tr>
+						<td>&nbsp;&nbsp;Werkgever</td>
+						<td><input @bind="item.Werkgever" /></td>
+						<td>
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;&nbsp;Functie</td>
+						<td><input @bind="item.Functie" /></td>
+						<td>
+							
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;&nbsp;Periode</td>
+						<td><input @bind="item.Periode" /></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>&nbsp;&nbsp;Referenties</td>
+						<td><input @bind="item.Referenties" /></td>
+						<td></td>
+					</tr>
+				</table>
+				<hr />
+				<div>
+					<span style="position: relative; float:left">
+						<button @onclick="() => Delete(item)">Delete &nbsp;<img src="minus-circle.png" alt="sss" /></button>
+					</span>
+					<span style="position: relative; float:right">
+						<label style="color:black" for="coding">Show</label>
+						<input class="checkboxshow" type="checkbox" @bind="item.Show" id="coding" name="interest" value="coding" />
+					</span>
+				</div>
+			</fieldset>
+		}
+		<div>
+			<span style="float:right">
+				<button @onclick="Add"><img src="plus-circle.png" alt="sss" /></button>
+			</span>
+		</div>
+	</div>
+
+	List<WorkExperience> range2 = Curriculum.ListWorkExperience.GetRange(3, aantal-3);
+	<div class="CDataDrager-B">
+		@foreach (WorkExperience item in range2)
+		{
+			if (teller % 2 == 0)
+				fs = "fieldset-oneven";
+			else
+				fs = "fieldset-even";
+			teller++;
+
+			<br />
+			<fieldset class="@fs">
+				<legend><span class="legend-span">&nbsp;Work Experience Card&nbsp;</span></legend>
+				<table>
+					<tr>
+						<td>&nbsp;&nbsp;Werkgever</td>
+						<td><input @bind="item.Werkgever" /></td>
+						<td>
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;&nbsp;Functie</td>
+						<td><input @bind="item.Functie" /></td>
+						<td>
+						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;&nbsp;Periode</td>
+						<td><input @bind="item.Periode" /></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>&nbsp;&nbsp;Referenties</td>
+						<td><input @bind="item.Referenties" /></td>
+						<td></td>
+					</tr>
+				</table>
+				<hr />
+				<div>
+					<span style="position: relative; float:left">
+						<button @onclick="() => Delete(item)">Delete &nbsp;<img src="minus-circle.png" alt="sss" /></button>
+					</span>
+					<span style="position: relative; float:right">
+						<label style="color:black" for="coding">Show</label>
+						<input class="checkboxshow" type="checkbox" @bind="item.Show" id="coding" name="interest" value="coding" />
+					</span>
+				</div>
+			</fieldset>
+		}
+		<div>
+			<span style="float:right">
+				<button @onclick="Add"><img src="plus-circle.png" alt="sss" /></button>
+			</span>
+		</div>
+	</div>
+}
+
+@code {
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+
+	[CascadingParameter]
+	public XMLDataCreate XmlData { get; set; }
+
+	int teller = 1;
+	string fs = "";
+
+	void Add()
+	{
+		WorkExperience we = new();
+		we.Id = Curriculum.ListWorkExperience.Count() + 1;
+		Curriculum.ListWorkExperience.Add(we);
+		XmlData.Save(Curriculum);
+	}
+
+	void Delete(WorkExperience item)
+	{
+		Curriculum.ListWorkExperience.Remove(item);
+		XmlData.Save(Curriculum);
+	}
+}

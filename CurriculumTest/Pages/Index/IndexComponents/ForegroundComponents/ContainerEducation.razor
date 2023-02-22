@@ -1,0 +1,48 @@
+﻿@foreach (Education item in Curriculum.ListEducation)
+	{
+		if (teller % 2 == 0)
+		{
+			fs = "fieldset-oneven";
+		}
+		else
+		{
+			fs = $"fieldset-even";
+		}
+		<fieldset class="@fs">
+			<legend><span class="legend-span">&nbsp;Opleiding &nbsp;</span></legend>
+			<table>
+				<tr>
+					<td>&nbsp;&nbsp;Naam</td>
+					<td><input value="@item.NaamEducation" readonly /></td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Niveau</td>
+					<td><input value="@item.Niveau" readonly /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Diploma</td>
+				<td><input value="@item.Diploma" readonly /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Toelichting</td>
+					<td><input value="@item.Toelichting" readonly /></td>
+					<td></td>
+				</tr>
+			</table>
+		</fieldset>
+		teller++;
+	}
+
+@code 
+{
+	int teller = 1;
+	string fs = "";
+
+	/// parameter: geeft object Curriculum dat in parent werd aangemaakt door aan child EditOpleiding  
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+}

@@ -1,0 +1,59 @@
+﻿@foreach (Dating item in Curriculum.ListDating)
+{
+<div class="whitefontt">
+    <fieldset id="pictureframe">
+		<legend style="font-size:14px;"><span class="legend-span">
+					&nbsp;&nbsp;@item.Voornaam @item.Tussenvoegsel @item.Achternaam &nbsp;&nbsp;
+				</span>
+			</legend>
+        <table>
+			<tr>
+				<td colspan="2">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+				<input type="hidden" /><img class="profilepic" src=@item.Foto alt="foto" />
+				</td>
+			</tr>
+				<tr>
+					<td colspan="2">
+						<input class="checkboxpro" type="checkbox" id="oding" name="interest" value="coding" />
+						<label style="color:black" for="oding">BIG-Registratie</label>
+					</td>
+				</tr>
+			<tr>
+				<td>Leeftijd:</td>
+				<td><input value="@item.Leeftijd" readonly /></td>
+			</tr>
+		</table>
+	</fieldset>
+	<br />
+	</div>
+}
+
+@foreach (Communications item in Curriculum.ListCommunications)
+{
+	<fieldset>
+		<legend style="font-size:14px"></legend>
+		<table>
+			<tr>
+				<td>Telefoon:</td>
+				<td><input value="@item.Telefoon" readonly /></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input value="@item.Email" readonly /></td>
+			</tr>
+			<tr>
+				<td>Gemeente:</td>
+				<td><input value="@item.Gemeente" readonly /></td>
+			</tr>
+		</table>
+	</fieldset>
+}
+
+@code {
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+}

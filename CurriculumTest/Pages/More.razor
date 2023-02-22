@@ -1,0 +1,123 @@
+﻿@page "/more"
+
+<div class="flexx">
+<h1>De GGZ: kansen in een moeraslandschap</h1>
+<br />
+	
+<h2>Het moeraslandschap</h2>
+	<p># Rooster van het doucheputje - geestelijk zwaar werk</p>
+	<p># Wachtlijsten - Treek Normen - 4 weken voor intake - 10 weken voor eerste behandeling - Maatschappelijke en individuele kosten</p>
+	<p># Onderbezetting - negatieve feedback spiraal</p>
+	<p># Sombere toekomst: onderbezetting zal binnen 10 jaar nog fors toenemen - leeftijdsgebonden personeelsuitstroom</p>
+	<p># Ontstaan van het Moeraslandschap: stelselwijzigingen - Treek Normen 2005</p>
+	<p># Overheid en sector hebben geen passende oplossing</p>
+
+<p>	Conclusie: de mogelijkheden voor de overheid en de sector om op korte of lange termijn de knelpunten op te lossen zijn vrijwel nihil. 
+</p>
+	<h2>Kansen</h2>
+	<p># Omdenken gewenst - Meer vacatures dan kandidaten - De aanbieder van arbeid domineert de markt</p>
+	<p># Vroeger: bedrijf plaatst personeelsadvertentie - Nu: individu plaatst baanadvertentie</p>
+	<p># Zero-Sum Game: de winst van de een is het verlies van de ander </p>
+	<p># Op instellingsniveau het beste en slimste beleid voeren zodat werken bij die ene instelling weer leuk wordt.</p>
+	<p># Cocktail van arbeidsvoorwaarden</p>
+	<p></p>
+
+
+
+
+<p>
+
+
+		Treeknormen<br />
+		Acceptabel geachte wachttijd voor eerste intake: 4 weken<br />
+		Acceptabel geachte wachttijd voor eerste behandeling: 10 weken.<br /><br />
+
+		Aandacht voor de maatschappelijke kanten en kosten van de lange wachtlijsten gegroeid.<br />
+
+		Nadruk op zorg in plaats van op de integrale mens<br />
+		Lange wachtijden<br />
+		Toenemende instroom<br />
+		Problemen bij diagnosestelling<br />
+		Nadruk op zorg in plaats van op de integrale mens<br />
+		Belemmeringen voor domeinoverstijgende vraagstukken<br />
+		Passend aanbod voor mensen met complexere zorgvraag niet altijd voorhanden<br />
+		Mensen met chronische psychische problematiek blijven (te) lang in zorg<br />
+		Arbeidsmarkt- en opleidingsproblematiek<br />
+
+
+</p>
+</div>
+
+<div>
+
+	<h1></h1>
+
+	@RenderWelcomeInfo
+
+	<p></p>
+
+	@RenderWelcomeInfo
+
+	@code {
+		private RenderFragment RenderWelcomeInfo = __builder =>
+		{
+			<p></p>
+		};
+	}
+</div>
+<style>
+	h1{
+		font-size:35px;
+	}
+	.flexx {
+		padding: 80px;
+		padding-bottom: 15px;
+		flex-wrap: wrap;
+		justify-content: center;
+		background-color: white;
+		border-radius: 24px;
+	}
+
+		.flexx > div {
+			background-color: red;
+			margin: 10px;
+			padding: 15px;
+			font-size: 13px;
+			border-radius: 24px;
+		}
+
+	p {
+		font-size: 16px;
+
+	}
+
+	span {
+		border: 1px solid black;
+		background-color: lightpink;
+		margin-left: 1px;
+	}
+
+	div {
+		width: 1200px;
+		height: 950px;
+	}
+</style>
+
+	@code {
+	// 	// deze pagina moet nog ergens op de frontpagina een link krijgen en is nog niet klaar
+
+	string a = "dit was 1";
+	private int currentCount = 0;
+
+	[Parameter]
+	public int IncrementAmount { get; set; } = 1;
+
+	private void IncrementCount()
+	{
+	currentCount += IncrementAmount;
+	}
+
+	string g = "<ViewMenu />";
+
+	
+}

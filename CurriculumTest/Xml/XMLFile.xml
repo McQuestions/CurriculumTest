@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <cv>
+    <access>rr</access>
+    <voornaam>Jules</voornaam>
+    <tussenvoegsel>van</tussenvoegsel>
+    <achternaam>Nuijs</achternaam>
+    <leeftijd>62</leeftijd>
+    <adres>B. van Grunsvenplein 13</adres>
+    <postcode>6411AN</postcode>
+    <woonplaats>Heerlen</woonplaats>
+    <email>djools121@gmail.com</email>
+    <telefoon>0457851688</telefoon>
+    <foto>foto zegt meer dan 1000 woorden.</foto>
+    <meta>Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+Ideeen
+* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.</meta>
+    <container_workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Persoonlijk Coach</functie>
+        <periode>2017 - 2022</periode>
+        <referenties></referenties>
+      </workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Zelfstandig</werkgever>
+        <functie>Bedrijfsadviseur  </functie>
+        <periode>2008 - 2017</periode>
+        <referenties></referenties>
+      </workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Gemeente Landgraaf</werkgever>
+        <functie>Beleidsmedewerker Arbeid</functie>
+        <periode>2004 -2007</periode>
+        <referenties>Reijnders, secretaris Vaals</referenties>
+      </workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Web Designer</functie>
+        <periode>2002 -2004</periode>
+        <referenties></referenties>
+      </workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Hoofd Afd. WOS</functie>
+        <periode>1997 - 2002</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+    </container_workexperience>
+    <container_education>
+      <education>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </container_education>
+    <container_vaardigheden>
+      <vaardigheden>
+        <id>0</id>
+        <omschrijving>Microsoft Office</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <id>0</id>
+        <omschrijving>MySql</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </container_vaardigheden>
+    <container_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <id>0</id>
+        <activiteit>Bouwen</activiteit>
+      </vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <id>0</id>
+        <activiteit>met code objecten maken</activiteit>
+      </vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </container_vrijetijdsbesteding>
+    <container_referentie>
+      <referentie>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+      <referentie>
+        <id>0</id>
+        <naam>aaaaaaaaa</naam>
+        <functie>aaaaaa</functie>
+      </referentie>
+    </container_referentie>
+    <container_tool>
+      <tool>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </container_tool>
+    <container_cursus>
+      <cursus>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+      <cursus>
+        <id>0</id>
+        <naam>eeeeeeeeee</naam>
+        <toelichting>er</toelichting>
+      </cursus>
+      <cursus>
+        <id>0</id>
+        <naam>yyyyyyyyyyyy</naam>
+        <toelichting>yyyyyy</toelichting>
+      </cursus>
+    </container_cursus>
+    <container_certificaat>
+      <certificaat>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <id>3</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <id>3</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting />
+      </certificaat>
+      <certificaat>
+        <id>3</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting />
+      </certificaat>
+      <certificaat>
+        <id>3</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting />
+      </certificaat>
+      <certificaat>
+        <id>3</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting />
+      </certificaat>
+    </container_certificaat>
+    <container_training>
+      <training>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+      <training>
+        <id>0</id>
+        <naam>aaaaadddddddd</naam>
+        <toelichting>ggggggggg</toelichting>
+      </training>
+    </container_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <voornaam>Jules</voornaam>
+    <tussenvoegsel>van</tussenvoegsel>
+    <achternaam>Nuijs</achternaam>
+    <leeftijd>62</leeftijd>
+    <adres>B. van Grunsvenplein 13</adres>
+    <postcode>6411AN</postcode>
+    <woonplaats>Heerlen</woonplaats>
+    <email>djools121@gmail.com</email>
+    <telefoon>0457851688</telefoon>
+    <foto>foto zegt meer dan 1000 woorden.</foto>
+    <meta>Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+Ideeen
+* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.</meta>
+    <container_workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Persoonlijk Coach</functie>
+        <periode>2017 - 2022</periode>
+        <referenties></referenties>
+      </workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Zelfstandig</werkgever>
+        <functie>Bedrijfsadviseur  </functie>
+        <periode>2008 - 2017</periode>
+        <referenties></referenties>
+      </workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Gemeente Landgraaf</werkgever>
+        <functie>Beleidsamtenaar Arbeid</functie>
+        <periode>2004 -2007</periode>
+        <referenties>Reijnders, secretaris Vaals</referenties>
+      </workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Web Designer</functie>
+        <periode>2002 -2004</periode>
+        <referenties></referenties>
+      </workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Hoofd Afd. WOS</functie>
+        <periode>1997 - 2002</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+    </container_workexperience>
+    <container_education>
+      <education>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </container_education>
+    <container_vaardigheden>
+      <vaardigheden>
+        <id>0</id>
+        <omschrijving>Microsoft Office</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <id>0</id>
+        <omschrijving>MySql</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </container_vaardigheden>
+    <container_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <id>0</id>
+        <activiteit>Bouwen</activiteit>
+      </vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <id>0</id>
+        <activiteit>met code objecten maken</activiteit>
+      </vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </container_vrijetijdsbesteding>
+    <container_referentie>
+      <referentie>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+      <referentie>
+        <id>0</id>
+        <naam>aaaaaaaaa</naam>
+        <functie>aaaaaa</functie>
+      </referentie>
+    </container_referentie>
+    <container_tool>
+      <tool>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </container_tool>
+    <container_cursus>
+      <cursus>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+      <cursus>
+        <id>0</id>
+        <naam>eeeeeeeeee</naam>
+        <toelichting>er</toelichting>
+      </cursus>
+      <cursus>
+        <id>0</id>
+        <naam>yyyyyyyyyyyy</naam>
+        <toelichting>yyyyyy</toelichting>
+      </cursus>
+    </container_cursus>
+    <container_certificaat>
+      <certificaat>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </container_certificaat>
+    <container_training>
+      <training>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+      <training>
+        <id>0</id>
+        <naam>aaaaadddddddd</naam>
+        <toelichting>ggggggggg</toelichting>
+      </training>
+    </container_training>
+  </cv>
+</root>

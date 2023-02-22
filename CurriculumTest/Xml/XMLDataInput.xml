@@ -1,0 +1,3398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--<cv>
+		<access></access>
+		<id></id>
+		<meta></meta>
+		<card_dating>
+			<show>true</show>
+			<voornaam></voornaam>
+			<tussenvoegsel></tussenvoegsel>
+			<achternaam></achternaam>
+			<leeftijd></leeftijd>
+			<foto></foto>
+			<beroep></beroep>
+		</card_dating>
+		<card_professional>
+			<beroep></beroep>
+			<thuiswerken></thuiswerken>
+			<zoekvooraantaluren></zoekvooraantaluren>
+			<big_registratie></big_registratie>
+			<zoekwerkinregio></zoekwerkinregio>
+			<zzp></zzp>
+			<zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+			<zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+			<huisvesting></huisvesting>
+		</card_professional>
+		<card_communications>
+			<show>true</show>
+			<email></email>
+			<telefoon></telefoon>
+			<gemeente></gemeente>
+		</card_communications>
+		<card_location>
+			<show>true</show>
+			<adres></adres>
+			<postcode></postcode>
+			<woonplaats></woonplaats>
+		</card_location>
+		<card_workexperiences>
+			<workexperience>
+				<show>true</show>
+				<id></id>
+				<werkgever></werkgever>
+				<functie></functie>
+				<periode></periode>
+				<referenties></referenties>
+			</workexperience>
+		</card_workexperiences>
+		<card_educations>
+			<education>
+				<show>true</show>
+				<id></id>
+				<naameducation></naameducation>
+				<niveau></niveau>
+				<diploma></diploma>
+				<toelichting></toelichting>
+			</education>
+		</card_educations>
+		<card_skills>
+			<skill>
+				<show>true</show>
+				<id></id>
+				<omschrijving></omschrijving>
+				<toelichting></toelichting>
+			</skill>
+		</card_skills>
+		<card_vrijetijdsbesteding>
+			<vrijetijdsbesteding>
+				<show>true</show>
+				<id></id>
+				<activiteit></activiteit>
+			</vrijetijdsbesteding>
+		</card_vrijetijdsbesteding>
+		<card_tools>
+			<tool>
+				<show>true</show>
+				<id></id>
+				<experiencelevel></experiencelevel>
+			</tool>
+		</card_tools>
+		<card_cursussen>
+			<cursus>
+				<show>true</show>
+				<id></id>
+				<naam></naam>
+				<toelichting></toelichting>
+			</cursus>
+		</card_cursussen>
+		<card_certificates>
+			<certificate>
+				<show>true</show>
+				<id></id>
+				<naam></naam>
+				<toelichting></toelichting>
+			</certificate>
+		</card_certificates>
+		<card_trainings>
+			<training>
+				<show>true</show>
+				<id></id>
+				<naam></naam>
+				<toelichting></toelichting>
+			</training>
+		</card_trainings>	
+	</cv>-->
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta></meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Ina</voornaam>
+        <tussenvoegsel>van der</tussenvoegsel>
+        <achternaam>Biezen</achternaam>
+        <foto>ina.jpg</foto>
+        <leeftijd>32</leeftijd>
+        <beroep>Psychomotorisch Therapeute</beroep>
+      </dating>
+    </card_dating>
+    <card_professional>
+      <professional>
+        <beroep>Psychomotorisch Therapeute</beroep>
+        <thuiswerken>Ja</thuiswerken>
+        <zoekvooraantaluren>36</zoekvooraantaluren>
+        <big_registratie>Ja</big_registratie>
+        <zoekwerkinregio>Tilburg</zoekwerkinregio>
+        <zzp>Ja</zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>Grindelweg 23</adres>
+        <postcode>6111MS</postcode>
+        <woonplaats>Susteren</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>Ina1001@gmail.com</email>
+        <telefoon>06878765456</telefoon>
+        <gemeente>Susteren</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Revalidatie Centrum Apeldoorn</werkgever>
+        <functie>Psychomotorisch Therapeut</functie>
+        <periode>2017 - 2022</periode>
+        <referenties></referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Kliniek Doordewijer</werkgever>
+        <functie>Psychomotorisch Assistent</functie>
+        <periode>2013 - 2017</periode>
+        <referenties></referenties>
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>Psychomotorische Therapie</naameducation>
+        <niveau>Bachelor</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Hoge School Amsterdam</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit></activiteit>
+      </vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Michelle</voornaam>
+        <tussenvoegsel></tussenvoegsel>
+        <achternaam>Bruinsma</achternaam>
+        <foto>michelle.jpg</foto>
+        <leeftijd>45</leeftijd>
+        <beroep>Sociaal-psychiatrisch Verpleegkundige</beroep>
+      </dating>
+    </card_dating>
+    <card_professional>
+      <professional>
+        <beroep>Sociaal-psychiatrisch Verpleegkundige</beroep>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <big_registratie></big_registratie>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>OpvangCentrum NoordOost (NH)</werkgever>
+        <functie>Sociaal-psychiatrisch Verpleegkundige</functie>
+        <periode>2017 - 2022</periode>
+        <referenties></referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zorgcentrum D'r Tuup</werkgever>
+        <functie>Verpleegkundige A</functie>
+        <periode>2008 - 2017</periode>
+        <referenties></referenties>
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>Master GGZ Verpleegkunde</naameducation>
+        <niveau>Master</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>HvA</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>3</id>
+        <omschrijving />
+        <toelichting />
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit></activiteit>
+      </vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jeroen</voornaam>
+        <tussenvoegsel></tussenvoegsel>
+        <achternaam>Deldens</achternaam>
+        <foto>jeroen.jpg</foto>
+        <leeftijd>43</leeftijd>
+        <beroep>Klinisch Psycholoog</beroep>
+      </dating>
+    </card_dating>
+    <card_professional>
+      <professional>
+        <beroep>Klinisch Psycholoog</beroep>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <big_registratie></big_registratie>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>Plein 1944</adres>
+        <postcode>6311AN</postcode>
+        <woonplaats>Nijmegen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>JDeldens11@gmail.com</email>
+        <telefoon>06887851688</telefoon>
+        <gemeente></gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Opvangcentrum Ter Apel</werkgever>
+        <functie>Afdelingshoofd Doorverwijzing</functie>
+        <periode>2016 - 2023</periode>
+        <referenties></referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zuyderland Klinieken</werkgever>
+        <functie>Teamleider Zorg</functie>
+        <periode>2008 - 2016</periode>
+        <referenties></referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Belastingdienst</werkgever>
+        <functie>Teamleider ZorgInspectie</functie>
+        <periode>2004 -2007</periode>
+        <referenties></referenties>
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>Klinische Psychologie</naameducation>
+        <niveau>Master</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Universiteit Groningen</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>Bouwen</activiteit>
+      </vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met code objecten maken</activiteit>
+      </vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+    <card_resume>
+      <resume>aaaaaaaaaa</resume>
+    </card_resume>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+        <beroep>Beleidsadviseur</beroep>
+      </dating>
+    </card_dating>
+    <card_professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <big_registratie></big_registratie>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Persoonlijk Coach</functie>
+        <periode>2017 - 2022</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zelfstandig</werkgever>
+        <functie>Bedrijfsadviseur  </functie>
+        <periode>2008 - 2017</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Landgraaf</werkgever>
+        <functie>Beleidsamtenaar Arbeid</functie>
+        <periode>2004 -2007</periode>
+        <referenties>Reijnders, secretaris Vaals</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Web Designer</functie>
+        <periode>2002 -2004</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Hoofd Afd. WOS</functie>
+        <periode>1997 - 2002</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Persoonlijk Coach</functie>
+        <periode>2017 - 2022</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zelfstandig</werkgever>
+        <functie>Bedrijfsadviseur  </functie>
+        <periode>2008 - 2017</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Landgraaf</werkgever>
+        <functie>Beleidsamtenaar Arbeid</functie>
+        <periode>2004 -2007</periode>
+        <referenties>Reijnders, secretaris Vaals</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Web Designer</functie>
+        <periode>2002 -2004</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Hoofd Afd. WOS</functie>
+        <periode>1997 - 2002</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>7</id>
+        <werkgever />
+        <functie />
+        <periode />
+        <referenties />
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Persoonlijk Coach</functie>
+        <periode>2017 - 2022</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zelfstandig</werkgever>
+        <functie>Bedrijfsadviseur  </functie>
+        <periode>2008 - 2017</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Landgraaf</werkgever>
+        <functie>Beleidsamtenaar Arbeid</functie>
+        <periode>2004 -2007</periode>
+        <referenties>Reijnders, secretaris Vaals</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Web Designer</functie>
+        <periode>2002 -2004</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Hoofd Afd. WOS</functie>
+        <periode>1997 - 2002</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zelfstandig</werkgever>
+        <functie>Bedrijfsadviseur  </functie>
+        <periode>2008 - 2017</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Landgraaf</werkgever>
+        <functie>Beleidsamtenaar Arbeid</functie>
+        <periode>2004 -2007</periode>
+        <referenties>Reijnders, secretaris Vaals</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Web Designer</functie>
+        <periode>2002 -2004</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Hoofd Afd. WOS</functie>
+        <periode>1997 - 2002</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Landgraaf</werkgever>
+        <functie>Beleidsamtenaar Arbeid</functie>
+        <periode>2004 -2007</periode>
+        <referenties>Reijnders, secretaris Vaals</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Web Designer</functie>
+        <periode>2002 -2004</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Hoofd Afd. WOS</functie>
+        <periode>1997 - 2002</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Zelfstandig </werkgever>
+        <functie>Web Designer</functie>
+        <periode>2002 -2004</periode>
+        <referenties>Belastingdienst</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Hoofd Afd. WOS</functie>
+        <periode>1997 - 2002</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Hoofd Afd. WOS</functie>
+        <periode>1997 - 2002</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>2</id>
+        <werkgever />
+        <functie />
+        <periode />
+        <referenties />
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>2</id>
+        <werkgever />
+        <functie />
+        <periode />
+        <referenties />
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>3</id>
+        <werkgever />
+        <functie />
+        <periode />
+        <referenties />
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>2</id>
+        <werkgever />
+        <functie />
+        <periode />
+        <referenties />
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>3</id>
+        <werkgever />
+        <functie />
+        <periode />
+        <referenties />
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>2</id>
+        <activiteit />
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>2</id>
+        <werkgever />
+        <functie />
+        <periode />
+        <referenties />
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>3</id>
+        <werkgever />
+        <functie />
+        <periode />
+        <referenties />
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>2</id>
+        <werkgever />
+        <functie />
+        <periode />
+        <referenties />
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+  <cv>
+    <access>rr</access>
+    <id>1</id>
+    <meta>
+			Voor mijn vorige werkgever bedacht ik de slogan "Met onze mini-graafmachines kunt u een heel grote kuil voor een ander graven".
+			Ideeen
+			* we analyseren de kleurvoorkeuren van degene die personeel zoekt en de cv's wil bekijken. dat doen we meteen vanaf de rootpagina - indexpagina. Bezoeker krijgt twee identieke menu's in verschillende kleurstellingen voorgeschoteld. Dan komt hij in het zoek menu en ook daar weer analyseren we zijn kleur keuzes. De cv's die hij uiteindelijk te zien krijgt worden ingekleurd met de kleuren waar hij op vertrouwd.
+			* Dit is waarschijnlijk ook hoe grotere bedrijven te werk gaan. Alle info die de klant geeft gebruiken waar het kan.
+			* Kleurenpsychologie. Als de kleuren je wel/niet aanstaan. we worden onrustig van bepaalde kleurcombinaties en weer rustig van andere. We associeren ze ook met ideeen die ons wel of niet aanstaan. Sommige vinden we interessant of saai.
+			Als we de bezoeker een kleurcombinatie tonen waar hij zich prettig bij voelt zal hij langer op de site verblijven, zal zijn ervaring positiever zijn.
+		</meta>
+    <card_dating>
+      <dating>
+        <show>true</show>
+        <voornaam>Jules</voornaam>
+        <tussenvoegsel>van</tussenvoegsel>
+        <achternaam>Nuijs</achternaam>
+        <foto>roddy.jpg</foto>
+        <leeftijd>62</leeftijd>
+      </dating>
+    </card_dating>
+    <card_Professional>
+      <professional>
+        <beroep>Beleidsadviseur</beroep>
+        <big_registratie></big_registratie>
+        <thuiswerken></thuiswerken>
+        <zoekvooraantaluren></zoekvooraantaluren>
+        <zoekwerkinregio></zoekwerkinregio>
+        <zzp></zzp>
+        <zoektOpleidingsmogelijkheden></zoektOpleidingsmogelijkheden>
+        <zoektGroeimogelijkheden></zoektGroeimogelijkheden>
+        <huisvesting></huisvesting>
+      </professional>
+    </card_Professional>
+    <card_location>
+      <location>
+        <show>true</show>
+        <adres>B. van Grunsvenplein 13</adres>
+        <postcode>6411AN</postcode>
+        <woonplaats>Heerlen</woonplaats>
+      </location>
+    </card_location>
+    <card_communications>
+      <communications>
+        <show>true</show>
+        <email>djools121@gmail.com</email>
+        <telefoon>0457851688</telefoon>
+        <gemeente>Heerlen</gemeente>
+      </communications>
+    </card_communications>
+    <card_workexperience>
+      <workexperience>
+        <show>false</show>
+        <id>0</id>
+        <werkgever>Gemeente Onderbanken</werkgever>
+        <functie>Waarnemend hoofd PZ</functie>
+        <periode>1996</periode>
+        <referenties>Oud-secretaris Gereats</referenties>
+      </workexperience>
+      <workexperience>
+        <show>true</show>
+        <id>2</id>
+        <werkgever />
+        <functie />
+        <periode />
+        <referenties />
+      </workexperience>
+    </card_workexperience>
+    <card_education>
+      <education>
+        <show>true</show>
+        <id>0</id>
+        <naameducation>HBDO Recht en Beleid</naameducation>
+        <niveau>HBO</niveau>
+        <diploma>Ja</diploma>
+        <toelichting>Bestuursacademie Zuid</toelichting>
+      </education>
+      <education>
+        <show>true</show>
+        <id>2</id>
+        <naameducation />
+        <niveau />
+        <diploma />
+        <toelichting />
+      </education>
+    </card_education>
+    <card_vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>C#, CSS, XML, PHP </omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+      <vaardigheden>
+        <show>true</show>
+        <id>0</id>
+        <omschrijving>dddddddddddd</omschrijving>
+        <toelichting></toelichting>
+      </vaardigheden>
+    </card_vaardigheden>
+    <card_vrijetijdsbesteding>
+      <vrijetijdsbesteding>
+        <show>true</show>
+        <id>0</id>
+        <activiteit>met objecten functionaliteiten maken</activiteit>
+      </vrijetijdsbesteding>
+    </card_vrijetijdsbesteding>
+    <card_referentie>
+      <referentie>
+        <show>true</show>
+        <id>0</id>
+        <naam>Janssen</naam>
+        <functie>Bedrijfsleider</functie>
+      </referentie>
+    </card_referentie>
+    <card_tool>
+      <tool>
+        <show>true</show>
+        <id>0</id>
+        <experiencelevel>42</experiencelevel>
+      </tool>
+    </card_tool>
+    <card_cursus>
+      <cursus>
+        <show>true</show>
+        <id>0</id>
+        <naam>aa</naam>
+        <toelichting>aaaa</toelichting>
+      </cursus>
+    </card_cursus>
+    <card_certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Organisatiekunde</naam>
+        <toelichting>aaa</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao Mer Statistiek</naam>
+        <toelichting>wwwwwwwwww</toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Informatiekunde</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Bedrijfsadministratie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Privaatrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Publiekrecht</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Sociologie</naam>
+        <toelichting></toelichting>
+      </certificaat>
+      <certificaat>
+        <show>true</show>
+        <id>0</id>
+        <naam>Heao MER Openbare Financien</naam>
+        <toelichting></toelichting>
+      </certificaat>
+    </card_certificaat>
+    <card_training>
+      <training>
+        <show>true</show>
+        <id>0</id>
+        <naam>Management PWC</naam>
+        <toelichting>In-company</toelichting>
+      </training>
+    </card_training>
+  </cv>
+</root>

@@ -1,0 +1,58 @@
+﻿<table style="width:100% !important; align-content:flex-start;">
+	<tr>
+		<td style="width:10%">
+			Go to &nbsp;&nbsp;
+			<span class="houseofcolorsBEE">
+				&nbsp;&nbsp;<a class="hoc" href="/create"><b>Create</b></a>&nbsp;&nbsp;&nbsp;
+			</span>
+			&nbsp;&nbsp;&nbsp;
+			Go to &nbsp;&nbsp;
+			<span class="houseofcolorsHeerlen">
+				&nbsp;&nbsp;<a class="hoc" href="/example1index"><b>Example</b></a>&nbsp;&nbsp;&nbsp;
+			</span>
+			&nbsp;&nbsp;&nbsp;
+			Go to &nbsp;&nbsp;
+			<span class="houseofcolorsHeerlen">
+				&nbsp;&nbsp;<a class="hoc" href="/example2index"><b>Example</b></a>&nbsp;&nbsp;&nbsp;
+			</span>
+			&nbsp;&nbsp;&nbsp;
+			Go to &nbsp;&nbsp;
+			<span class="houseofcolorsHeerlen">
+				&nbsp;&nbsp;<a class="hoc" href="/example3index"><b>Example</b></a>&nbsp;&nbsp;&nbsp;
+			</span>
+			&nbsp;&nbsp;&nbsp;
+			Go to &nbsp;&nbsp;
+			<span class="houseofcolorsHeerlen">
+				&nbsp;&nbsp;<a class="hoc" href="/more"><b>De GGZ</b></a>&nbsp;&nbsp;&nbsp;
+			</span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Steeds weer een nieuwe cv? In een handomdraai. 
+		</td>
+	</tr>	
+</table>
+
+@code {
+
+	string kleurwaarde(int kw)
+	{
+		string r = "";
+		if (kw.ToString().Length == 1)
+		{
+			r += "00";
+		}
+		else if (kw.ToString().Length == 2)
+		{
+			r += "0";
+		}
+		return r + kw.ToString();
+	}
+
+	[CascadingParameter]
+	public Colors Colours { get; set; }
+
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+
+	
+	
+
+}

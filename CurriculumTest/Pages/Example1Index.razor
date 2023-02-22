@@ -1,0 +1,72 @@
+﻿@page "/example1index"
+@using System.Xml.Linq
+@using System.Text
+@using CurriculumTest.Pages.Index.IndexComponents
+@using CurriculumTest.Pages.Index.IndexComponents.ForegroundComponents
+
+<div class="container">
+	<div class="BackgroundOverlay1">
+		<div class="raster">
+			@*			<!--<CascadingValue Value="@Colours">
+				<BackgroundOverlay1 />
+			</CascadingValue>-->*@
+			@{
+				string[] shapes = { Colors.Rood, Colors.Geel, Colors.Cyaan, Colors.Blauw, Colors.Magenta, Colors.Groen };
+				Rand.GetRandom.Next(0, shapes.Count());
+			}
+
+			@for (int i = 1; i < 4000; i++)
+			{
+@*				if (i % Rand.GetRandom.Next(35, 55) == 0)
+				{
+					<div class="c" style="background-color:@shapes[Rand.GetRandom.Next(0, shapes.Count())]">&nbsp;</div>
+				}*@			
+				if (i % 2 == 0 || i % 3 == 0)
+				{
+					<div class="d">&nbsp;</div>
+				}
+				else
+				{
+					<div class="o">&nbsp;</div>
+				}
+			}
+		</div>
+		<br /><br /><br />&nbsp;
+	</div>
+
+	<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  VOORGROND DIV die met css flexbox werkt  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+	<CascadingValue Value="@Colours">
+		<CascadingValue Value="@Curriculum" IsFixed="true">
+			<Foreground1 />
+		</CascadingValue>
+	</CascadingValue>
+</div>
+
+@{
+	Colours.SetValues(Colors.Button, 45);
+	if (teller < 1)
+	{
+		XmlData = new XMLDataCreate();
+		Curriculum = XmlData.GetCurriculumCreate(1);
+		teller++;
+	}
+}
+
+@code
+{
+	int teller = 0;
+
+	XMLDataCreate XmlData = new XMLDataCreate();
+	public Curriculum Curriculum;
+
+	// Het object dat bij elke klik opnieuw wordt aangemaakt en het kleurenpalet bevat
+	public Colors Colours = new Colors();
+
+}
+
+
+
+
+
+
+

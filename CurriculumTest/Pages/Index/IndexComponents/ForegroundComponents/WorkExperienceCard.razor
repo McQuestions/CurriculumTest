@@ -1,0 +1,88 @@
+﻿@{
+	int aantal = Curriculum.ListWorkExperience.Count();
+}
+
+@if (Curriculum.ListWorkExperience.Count() < 4)
+{
+	<div class="DataDrager-Dating">
+		@foreach (WorkExperience item in Curriculum.ListWorkExperience)
+		{
+			if (teller % 2 == 0) fs = "fieldset-oneven";
+			else fs = $"fieldset-even";
+
+			<fieldset class="@fs">
+				<legend><span class="legend-span">&nbsp;Work Experience&nbsp;</span></legend>
+				@workexperience(item)
+			</fieldset>
+			teller++;
+		}
+	</div>
+}
+
+@if (Curriculum.ListWorkExperience.Count() >= 4)
+{
+	List<WorkExperience> range1 = Curriculum.ListWorkExperience.GetRange(0, 3);
+	<div class="DataDrager-Dating">
+		@foreach (WorkExperience item in range1)
+		{
+			if (teller % 2 == 0) fs = "fieldset-oneven";
+			else fs = $"fieldset-even";
+
+			<fieldset class="@fs">
+				<legend><span class="legend-span">&nbsp;Work Experience&nbsp;</span></legend>
+				@workexperience(item)
+			</fieldset>
+			teller++;
+		}
+	</div>
+
+	List<WorkExperience> range2 = Curriculum.ListWorkExperience.GetRange(3, aantal - 3);
+	<div class="DataDrager-Dating">
+		@foreach (WorkExperience item in range2)
+		{
+			if (teller % 2 == 0) fs = "fieldset-oneven";
+			else fs = $"fieldset-even";
+
+			<fieldset class="@fs">
+				<legend><span class="legend-span">&nbsp;Work Experience&nbsp;</span></legend>
+				@workexperience(item)
+			</fieldset>
+			teller++;
+		}
+	</div>
+}
+
+@code {
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+
+	int teller = 1;
+	string fs = "";
+
+	private RenderFragment<WorkExperience> workexperience = item => __builder =>
+	{
+		<table>
+			<tr>
+				<td>&nbsp;&nbsp;Werkgever</td>
+				<td><input value="@item.Werkgever" readonly /></td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;Functie</td>
+				<td><input value="@item.Functie" readonly /></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;Periode</td>
+				<td><input value="@item.Periode" readonly /></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;Referenties</td>
+				<td><input value="@item.Referenties" readonly /></td>
+				<td></td>
+			</tr>
+		</table>
+	};
+}

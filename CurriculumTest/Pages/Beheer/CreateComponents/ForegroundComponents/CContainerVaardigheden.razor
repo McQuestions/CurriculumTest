@@ -1,0 +1,73 @@
+﻿@*<div class="datadrager-card">*@
+@foreach (Skill skill in Curriculum.ListSkills)
+{
+	if (teller % 2 == 0)
+		fs = "fieldset-oneven";
+	else
+		fs = "fieldset-even";
+	teller++;
+    <div>
+		<fieldset class="@fs">
+			<legend><span class="legend-span">&nbsp;Vaardigheden Card&nbsp;</span></legend>
+            <table>
+                <tr>
+					<td>&nbsp;&nbsp;Omschrijving</td>
+					<td><input @bind="skill.Omschrijving" /></td>
+					<td>
+						<button @onclick="() => Delete(skill)">
+							<img src="minus-circle.png" alt="sss" />
+						</button>
+					</td>
+                </tr>
+                <tr>
+					<td>&nbsp;&nbsp;Toelichting</td>
+					<td><input @bind="skill.Toelichting" /></td>
+					<td></td>
+                </tr>
+            </table>
+			<hr />
+			<div>
+				<span style="position: relative; float:left">
+					<button @onclick="() => Delete(skill)">Delete &nbsp;<img src="minus-circle.png" alt="sss" /></button>
+				</span>
+				<span style="position: relative; float:right">
+					<label style="color:black" for="coding">Show</label>
+					<input class="checkboxshow" type="checkbox" @bind="skill.Show" id="coding" name="interest" value="coding" />
+				</span>
+			</div>
+        </fieldset>
+    </div>
+    }
+	 <div>
+		<span style="float:right">
+			<button @onclick="Add"><img src="plus-circle.png" alt="sss" /></button>
+		</span>
+	</div>
+@*</div>*@
+
+
+@code {
+
+	int teller = 1;
+	string fs = "";
+
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+
+	[CascadingParameter]
+	public XMLDataCreate XmlData { get; set; }
+
+	void Add()
+	{
+		Skill skill = new();
+		skill.Id = Curriculum.ListSkills.Count() + 1;
+		Curriculum.ListSkills.Add(skill);
+		XmlData.Save(Curriculum);
+	}
+
+	void Delete(Skill skill)
+	{
+		Curriculum.ListSkills.Remove(skill);
+		XmlData.Save(Curriculum);
+	}
+}

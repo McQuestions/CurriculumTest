@@ -1,0 +1,25 @@
+﻿@foreach (Location item in Curriculum.ListLocation)
+{
+    <fieldset>
+        <legend><span class="legend-span">&nbsp;Locatie&nbsp;</span></legend>
+        <table>
+            <tr>
+				<td><input value="@item.Adres" readonly /></td>
+				<td>Adres</td>
+            </tr>
+            <tr>
+				<td><input value="@item.Postcode" readonly /></td>
+				<td>Postcode</td>
+            </tr>
+            <tr>
+				<td><input value="@item.Woonplaats" readonly /></td>
+				<td>Woonplaats</td>
+            </tr>
+            </table>
+    </fieldset>
+
+}
+@code {
+    [CascadingParameter]
+    public Curriculum Curriculum { get; set; }
+}

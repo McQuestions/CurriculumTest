@@ -1,0 +1,15 @@
+﻿@foreach (Dating item in Curriculum.ListDating)
+{
+	<div class="whitefont">
+		<fieldset id="pictureframe">
+			<legend style="font-size:14px;"><span class="legend-span">&nbsp;&nbsp;Media&nbsp;</span></legend>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/D2FjaY9JXYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</fieldset>
+		<br />
+	</div>
+}
+
+@code {
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+}

@@ -1,0 +1,26 @@
+﻿@foreach (Skill skill in Curriculum.ListSkills)
+    {        
+    <div>
+        <fieldset>
+            <legend><span class="legend-span">&nbsp;Kennis en Vaardigheden&nbsp;</span></legend>
+            <table>
+                <tr>
+					<td>&nbsp;&nbsp;Omschrijving</td>
+					<td><input value="@skill.Omschrijving" readonly /></td>
+					<td>
+					</td>
+                </tr>
+                <tr>
+					<td>&nbsp;&nbsp;Toelichting</td>
+					<td><input value="@skill.Toelichting" readonly /></td>
+					<td></td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+    }
+
+@code {
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+}

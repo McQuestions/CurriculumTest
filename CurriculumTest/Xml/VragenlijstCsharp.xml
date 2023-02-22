@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+	<Vak>
+		<Vraag>
+			<VraagStelling>
+				Hoe wordt een Interface ook wel eens genoemd?
+			</VraagStelling>
+			<ListAntwoorden>
+				<A>Controller</A>
+				<B>Singleton</B>
+				<C>Contract</C>
+				<D>Deferred execution</D>				
+			</ListAntwoorden>
+			<JuistAntwoord>Contract
+			</JuistAntwoord>
+		</Vraag>
+		<Vraag>
+			<VraagStelling>
+				Een array kan niet worden gebruikt voor objecten die in run-time worden gecreeerd.  
+			</VraagStelling>
+			<ListAntwoorden>
+				<A></A>
+				<B></B>
+			</ListAntwoorden>
+			<JuistAntwoord>Onjuist
+			</JuistAntwoord>
+		</Vraag>
+		<Vraag>
+			<VraagStelling>
+				Get and Set staan voor 
+			</VraagStelling>
+			<ListAntwoorden>
+				<A></A>
+				<B>lees de actuele value van een variabele en wijzig die actuele value </B>
+				<C></C>
+				<D></D>
+			</ListAntwoorden>
+			<JuistAntwoord>
+			</JuistAntwoord>
+		</Vraag>
+	</Vak>
+</Root>

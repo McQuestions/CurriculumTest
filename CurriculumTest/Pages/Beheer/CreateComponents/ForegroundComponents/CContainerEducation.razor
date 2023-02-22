@@ -1,0 +1,91 @@
+﻿@*<div class="datadrager-card">*@
+@foreach (Education item in Curriculum.ListEducation)
+	{
+		if (teller % 2 == 0)
+		{
+			fs = "fieldset-oneven";
+		}
+		else
+		{
+			fs = $"fieldset-even";
+		}
+		<fieldset class="@fs">
+			<legend><span class="legend-span">&nbsp;Opleiding Card&nbsp;</span></legend>
+			<table>
+				<tr>
+					<td>&nbsp;&nbsp;Naam</td>
+				<td><input @bind="item.NaamEducation" /></td>
+					<td>
+						<button @onclick="() => Delete(item)">
+							<img src="minus-circle.png" alt="sss" />
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Niveau</td>
+					<td><input @bind="item.Niveau" /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Diploma</td>
+					<td><input @bind="item.Diploma" /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>&nbsp;&nbsp;Toelichting</td>
+					<td><input @bind="item.Toelichting" /></td>
+					<td></td>
+				</tr>
+			</table>
+			<hr />
+			<div>
+				<span style="position: relative; float:left">
+					<button @onclick="() => Delete(item)">Delete &nbsp;<img src="minus-circle.png" alt="sss" /></button>
+				</span>
+				<span style="position: relative; float:right">
+					<label style="color:black" for="coding">Show</label>
+					<input class="checkboxshow" type="checkbox" @bind="item.Show" id="coding" name="interest" value="coding" />
+				</span>
+			</div>
+		</fieldset>
+		teller++;
+	}
+
+	<div>
+		<span style="float:right">
+			<button @onclick="Add"><img src="plus-circle.png" alt="sss" /></button>
+		</span>
+	</div>
+@*</div>*@
+
+
+@code 
+{
+	int teller = 1;
+	string fs = "";
+
+	/// parameter: geeft object Curriculum dat in parent werd aangemaakt door aan child EditOpleiding  
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+
+	/// idem voor XMLData
+	[CascadingParameter]
+	public XMLDataCreate XmlData { get; set; }
+
+	// wordt aangeroepen als user op png met de + klikt (toevoegen)
+	// toevoeging wordt in xml file weggeschreven
+	void Add()
+	{
+		Education opl = new Education();
+		opl.Id = Curriculum.ListEducation.Count() + 1;
+		Curriculum.ListEducation.Add(opl);
+	XmlData.Save(Curriculum);
+	}
+
+	// idem voor het verwijdering 
+	void Delete(Education weg)
+	{
+		Curriculum.ListEducation.Remove(weg);
+	XmlData.Save(Curriculum);
+	}
+}

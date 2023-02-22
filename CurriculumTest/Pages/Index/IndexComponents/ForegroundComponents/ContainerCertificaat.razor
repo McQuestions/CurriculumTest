@@ -1,0 +1,82 @@
+﻿@{
+	int aantal = Curriculum.ListCertificates.Count();
+}
+
+@if (Curriculum.ListCertificates.Count() < 5)
+{
+	<div class="DataDrager-Dating">
+
+		@foreach (Certificate item in Curriculum.ListCertificates)
+		{
+			if (teller % 2 == 0) fs = "fieldset-oneven";
+			else fs = $"fieldset-even";
+
+			<fieldset class="@fs">
+				<legend><span class="legend-span">&nbsp;Certificaat&nbsp;</span></legend>
+				@certificate(item)
+			</fieldset>
+
+			teller++;
+		}
+
+	</div>
+}
+
+@if (Curriculum.ListWorkExperience.Count() >= 5)
+{
+	List<Certificate> range1 = Curriculum.ListCertificates.GetRange(0, 4);
+	<div class="DataDrager-Dating">
+		@foreach (Certificate item in range1)
+		{
+			if (teller % 2 == 0) fs = "fieldset-oneven";
+			else fs = $"fieldset-even";
+
+			<fieldset class="@fs">
+				<legend><span class="legend-span">&nbsp;Certificaat&nbsp;</span></legend>
+				@certificate(item)
+			</fieldset>
+			teller++;
+		}
+	</div>
+
+	List<Certificate> range2 = Curriculum.ListCertificates.GetRange(4, aantal - 4);
+	<div class="DataDrager-Dating">
+		@foreach (Certificate item in range2)
+		{
+			if (teller % 2 == 0) fs = "fieldset-oneven";
+			else fs = $"fieldset-even";
+
+			<fieldset class="@fs">
+				<legend><span class="legend-span">&nbsp;Certificaat&nbsp;</span></legend>
+				@certificate(item)
+			</fieldset>
+			teller++;
+		}
+	</div>
+}
+
+@code
+{
+	int teller = 1;
+	string fs = "";
+
+	/// parameter: geeft object Curriculum dat in parent werd aangemaakt door aan child EditOpleiding
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+
+	private RenderFragment<Certificate> certificate = item => __builder =>
+	{
+		<table>
+			<tr>
+				<td>&nbsp;&nbsp;Certificaat</td>
+				<td><input value="@item.Naam" readonly /></td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;Toelichting</td>
+				<td><input value="@item.Toelichting" readonly /></td>
+				<td>
+				</td>
+			</tr>
+		</table>
+	};
+}

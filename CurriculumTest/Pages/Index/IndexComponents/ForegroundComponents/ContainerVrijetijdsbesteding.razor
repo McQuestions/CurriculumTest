@@ -1,0 +1,29 @@
+﻿<fieldset>
+    <legend><span class="legend-span">&nbsp;Vrijetijdsbesteding&nbsp;</span></legend>
+    <table>
+	@foreach (Vrijetijdsbesteding item in Curriculum.ListVrijetijdsbesteding)
+		{
+		<tr>
+            <td>
+				&nbsp;&nbsp;Activiteit
+			</td>
+			<td>
+				<input value="@item.Activiteit" readonly />
+			</td>
+			<td>
+			</td>
+        </tr>
+		}
+		<tr>
+			<td></td>
+			<td></td>
+			<td>
+			</td>
+		</tr>
+    </table>
+</fieldset>
+
+@code {
+	[CascadingParameter]
+	public Curriculum Curriculum { get; set; }
+}
